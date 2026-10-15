@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# IDEs & code editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing & code coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# DeepEval caches and temporary runs
+.deepeval/
+deepeval_test_results/
+
+# Playwright cache & browser downloads
+.playwright/
+test-results/
+playwright-report/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Project-specific generated data & scrapings
+# Keeps raw JSON data local while maintaining folder structure
+data/raw/*.json
+data/*.html
+!data/raw/.gitkeep
+
+# Streamlit runtime / local cache
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
